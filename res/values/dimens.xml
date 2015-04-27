@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="tab_text_size">10sp</dimen>
+	<dimen name="week_top_margin">30px</dimen>
+	<dimen name="week_left_margin">0px</dimen>
+	<dimen name="cell_width">76px</dimen>
+	<dimen name="cell_heigh">70px</dimen>
+	<dimen name="cell_margin_top">60px</dimen>
+	<dimen name="cell_margin_left">0px</dimen>
+	<dimen name="cell_text_size">36px</dimen>
+</resources>

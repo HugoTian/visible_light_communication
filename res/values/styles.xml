@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="Theme.MyAppTheme" parent="@android:style/Theme.Holo.Light">
+    	<item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
+    </style>
+
+    <style name="Theme.MyAppTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#fff3f3f3</item>
+		<!--  item name="android:icon">@android:color/transparent</item -->
+    </style>
+    
+    <style name="Theme.MyAppThemeNoIcon" parent="@style/Theme.MyAppTheme">
+    	<item name="android:icon">@android:color/transparent</item>
+    </style>
+   
+    <style name="main_tab_bottom">  
+       <item name="android:textSize">@dimen/tab_text_size</item>  
+       <item name="android:ellipsize">marquee</item>  
+       <item name="android:gravity">center_horizontal</item> 
+       <item name="android:layout_width">fill_parent</item>  
+       <item name="android:layout_height">fill_parent</item>  
+       <item name="android:button">@null</item>  
+       <item name="android:singleLine">true</item>  
+       <item name="android:layout_weight">1.0</item>
+       <item name="android:background">@color/holo_light</item>
+   </style> 
+    
+</resources>

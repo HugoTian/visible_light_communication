@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Customize_camera</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_image_capture">Take</string>
+    <string name="capture_image">Snap</string>
+    <string name="save_image">Save</string>
+    <string name="recapture_image">Retake</string>
+    <string name="capturing_image">New</string>
+    <string name="done">Done</string>
+    <string name="select">ISO</string>
+    <string name="select2">Exp</string>
+    <string name="gray_scale">Gray</string>
+    <string name="fft">Decode</string>
+
+</resources>

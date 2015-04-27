@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item android:id="@+id/big"
+                    android:title="Big"
+                    android:orderInCategory="1"/>
+   <item android:id="@+id/middle"
+                    android:title="Middle"
+                    android:orderInCategory="2"/>
+   <item android:id="@+id/small"
+                    android:title="Small"
+                    android:orderInCategory = "3"/>
+</menu>

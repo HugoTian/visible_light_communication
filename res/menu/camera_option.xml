@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item android:id="@+id/iso"
+                    android:title="ISO"
+                    android:orderInCategory="1">
+   <menu>
+              <item android:id="@+id/large"
+                    android:title="800"
+                    android:checked="true" 
+                    android:orderInCategory="1"/>
+              <item android:id="@+id/medium"
+                    android:title="400"
+                    android:orderInCategory="2"/>
+              <item android:id="@+id/small"
+                    android:title="200"
+                    android:orderInCategory = "3"/>
+    </menu>   
+    </item>
+   <item android:id="@+id/exposure"
+                    android:title="Exposure"
+                    android:orderInCategory="2">
+    <menu>
+              <item android:id="@+id/max"
+                    android:title="max"
+                    android:orderInCategory="1"/>
+              <item android:id="@+id/middle"
+                    android:title="middle"
+                    android:orderInCategory="2"/>
+              <item android:id="@+id/min"
+                    android:title="min"
+                    android:checked="true" 
+                    android:orderInCategory = "3"/>
+    </menu> 
+    </item>
+ 
+</menu>
